@@ -18,4 +18,7 @@ router.get('/contact', function(req, res, next) {
   res.render('contact', {page:'Contacts', menuId:'contact'});
 });
 
+router.get('/registration', function(req, res, next) {
+  res.render('registration', {page:'Registration', menuId:'registr'});
+});
 module.exports = router;
